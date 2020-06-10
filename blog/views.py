@@ -7,6 +7,7 @@ class PostAPIView(generics.APIView):
 
     def get(self, request):
         print("get")
+        print("This is Django View")
         return Response({'code':'1'}, status=status.HTTP_200_OK)
         
 
